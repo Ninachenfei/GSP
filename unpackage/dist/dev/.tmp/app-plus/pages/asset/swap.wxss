@@ -1,0 +1,44 @@
+
+.ec-canvas.data-v-7640d410 {
+  width: 100%;
+  height: 430rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+
+.box.data-v-f302f154{
+	font-size: 16px;
+	background-color: #E0E0E0;
+	width:100%;
+	height:100%;
+}
+.price.data-v-f302f154{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	padding: 10rpx 15rpx 3rpx 15rpx;
+}
+.querem.data-v-f302f154{
+	background-color: #fe6f07;
+	padding: 5rpx 15rpx;
+}
+text.data-v-f302f154{
+	
+	font-size: 14px;
+}
+.box1.data-v-f302f154 {
+	width: 100%;
+	height: 100%;
+	margin-top: -30px;
+}
+
+

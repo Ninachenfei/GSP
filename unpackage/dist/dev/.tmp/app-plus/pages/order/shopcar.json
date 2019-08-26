@@ -1,0 +1,17 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "购物车",
+  "titleNView": {
+    "backgroundColor": "#FFFFFF",
+    "buttons": [
+      {
+        "width": "30px",
+        "fontSrc": "/static/font/iconfont.ttf",
+        "text": "",
+        "fontSize": "22px",
+        "color": "#666666",
+        "redDot": false
+      }
+    ]
+  }
+}

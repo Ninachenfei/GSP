@@ -1,0 +1,110 @@
+.status-navbar.data-v-2fd77458 {
+  height: var(--status-bar-height);
+  display: block;
+}
+.head_top.data-v-2fd77458 {
+  background: #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 25rpx;
+  font-size: 28rpx;
+  line-height: 1.5;
+}
+.head_top .back.data-v-2fd77458 {
+  color: var(--txt-gray-color);
+}
+.head_top .link.data-v-2fd77458 {
+  color: var(--txt-color);
+}
+.form_ct_logo.data-v-2fd77458 {
+  padding-top: 20rpx;
+  padding-left: 30rpx;
+}
+.form_ct_logo .logo_img.data-v-2fd77458 {
+  width: 120rpx;
+  height: 120rpx;
+}
+.form_ct_logo .logo_text.data-v-2fd77458 {
+  font-size: 34rpx;
+  color: #333;
+  line-height: 1.5;
+}
+.form_ct_list.data-v-2fd77458 {
+  height: 96rpx;
+  line-height: 96rpx;
+  position: relative;
+  margin: 40rpx 28rpx 0rpx 28rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  border-bottom: 1px solid #f0f0f0;
+}
+.form_ct_list .input.data-v-2fd77458 {
+  font-size: 28rpx;
+  color: #333;
+  height: 96rpx;
+  line-height: 96rpx;
+}
+.form_ct_list .icon.data-v-2fd77458 {
+  width: 38rpx;
+  height: 42rpx;
+  margin-right: 16rpx;
+}
+.form_ct_list .icon_name.data-v-2fd77458 {
+  width: 42rpx;
+  height: 42rpx;
+  margin-right: 16rpx;
+}
+.form_ct_list .r_pt.data-v-2fd77458 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.location_btn.data-v-2fd77458 {
+  position: absolute;
+  bottom: 100rpx;
+  left: 0;
+  width: 100%;
+}
+.text_tips.data-v-2fd77458 {
+  font-size: 28rpx;
+  color: #8e8f8e;
+  padding: 0 28rpx;
+  margin-top: 30rpx;
+}
+.text_tips .link.data-v-2fd77458 {
+  color: var(--link-color);
+  display: inline-block;
+}
+.rt.data-v-2fd77458 {
+  font-size: 28rpx;
+  color: var(--link-color);
+  padding: 0 28rpx;
+  margin-top: 20rpx;
+  text-align: right;
+}
+.abyy.data-v-2fd77458 {
+  padding: 30rpx 28rpx;
+  text-align: center;
+}
+

@@ -1,0 +1,14 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "我的客服",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "消息",
+        "fontSize": "13px",
+        "color": "#4e58e6"
+      }
+    ]
+  }
+}

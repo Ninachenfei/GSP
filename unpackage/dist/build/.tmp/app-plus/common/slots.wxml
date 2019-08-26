@@ -1,0 +1,37 @@
+<import src="/pages/components/comment.vue.wxml" />
+<import src="/components/uParse/src/wxParse.vue.wxml" />
+<import src="/pages/components/popup-layer.vue.wxml" />
+<import src="/pages/components/uni-load-more.vue.wxml" />
+<import src="/pages/components/OrderItem.vue.wxml" />
+<import src="/components/mpvue-picker/mpvuePicker.vue.wxml" />
+<import src="/components/uni-load-more/uni-load-more.vue.wxml" />
+<import src="/pages/components/GoodsItem.vue.wxml" />
+<import src="/pages/components/GoodsItem2.vue.wxml" />
+<import src="/components/mpvue-citypicker/mpvueCityPicker.vue.wxml" />
+<import src="/components/w-picker/w-picker.vue.wxml" />
+<import src="/components/mpvue-echarts/src/echarts.vue.wxml" />
+<import src="/common/slots.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate0.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate1.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseVideo.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseAudio.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseImg.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate2.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate3.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate4.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate5.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate6.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate7.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate8.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate9.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate10.vue.wxml" />
+<import src="/components/uParse/src/components/wxParseTemplate11.vue.wxml" />
+
+<template name="data-v-33862abc-default-23ec50ff-5"><view class="_view data-v-33862abc comment-list popup-commonts"><template wx:key="index" data="{{...$root['0'], ...$root[$kk+'23ec50ff-3-'+index],$root}}" is="77114877" wx:for="{{comments}}" wx:for-index="index" wx:for-item="item"></template><template bindtap="handleProxy" data-eventid="{{'23ec50ff-7'}}" data-comkey="{{$k}}" data="{{...$root['0'], ...$root[$kk+'23ec50ff-4'],$root}}" is="0b925b57"></template></view></template>
+
+<template name="data-v-33862abc-default-23ec50ff-6"><view class="_view data-v-33862abc pupup-bg"><view class="_view data-v-33862abc popup-nums"><text class="_text data-v-33862abc popup-inner-title">购买数量</text><view class="_view data-v-33862abc popup-inputs"><text class="_text data-v-33862abc iconfont popup-iconfont" bindtap="handleProxy" data-eventid="{{'23ec50ff-8'}}" data-comkey="{{$k}}"></text><input type="number" disabled class="_input data-v-33862abc popup-input" value="{{attr.num}}" bindinput="handleProxy" data-eventid="{{'23ec50ff-9'}}" data-comkey="{{$k}}" /><text class="_text data-v-33862abc iconfont popup-iconfont" bindtap="handleProxy" data-eventid="{{'23ec50ff-10'}}" data-comkey="{{$k}}"></text></view></view><button class="_button data-v-33862abc btn-block mt-70" bindtap="handleProxy" data-eventid="{{'23ec50ff-11'}}" data-comkey="{{$k}}">确定</button></view></template>
+
+<template name="data-v-1ae88b88-default-3661ef03-3"><view class="_view data-v-1ae88b88 apply-item"><view class="_view data-v-1ae88b88 apply-subtitle">物流公司</view><view class="_view data-v-1ae88b88 apply-input"><input type="text" value="{{expressGs}}" bindinput="handleProxy" disabled bindtap="handleProxy" placeholder="请输入物流公司" class="_input data-v-1ae88b88 apply-input-item" data-eventid="{{'3661ef03-4'}}" data-comkey="{{$k}}" /></view></view><view class="_view data-v-1ae88b88 apply-item"><view class="_view data-v-1ae88b88 apply-subtitle">物流单号</view><view class="_view data-v-1ae88b88 apply-input"><input type="text" value="{{expressNum}}" bindinput="handleProxy" placeholder="请输入物流单号" class="_input data-v-1ae88b88 apply-input-item" data-eventid="{{'3661ef03-5'}}" data-comkey="{{$k}}" /></view></view><view class="_view data-v-1ae88b88 plr30 ordere-btn"><button class="_button data-v-1ae88b88 btn-block" hover-class="btn-hover" bindtap="handleProxy" data-eventid="{{'3661ef03-6'}}" data-comkey="{{$k}}">确认发货</button></view></template>
+
+<template name="data-v-459a9653-default-52996c96-1"><view class="_view data-v-459a9653 apply-item"><view class="_view data-v-459a9653 apply-subtitle">物流公司</view><view class="_view data-v-459a9653 apply-input"><input type="text" value="{{expressGs}}" bindinput="handleProxy" disabled bindtap="handleProxy" placeholder="请输入物流公司" class="_input data-v-459a9653 apply-input-item" data-eventid="{{'52996c96-6'}}" data-comkey="{{$k}}" /></view></view><view class="_view data-v-459a9653 apply-item"><view class="_view data-v-459a9653 apply-subtitle">物流单号</view><view class="_view data-v-459a9653 apply-input"><input type="text" value="{{expressNum}}" bindinput="handleProxy" placeholder="请输入物流单号" class="_input data-v-459a9653 apply-input-item" data-eventid="{{'52996c96-7'}}" data-comkey="{{$k}}" /></view></view><view class="_view data-v-459a9653 plr30 ordere-btn"><button class="_button data-v-459a9653 btn-block" hover-class="btn-hover" bindtap="handleProxy" data-eventid="{{'52996c96-8'}}" data-comkey="{{$k}}">确认发货</button></view></template>
+

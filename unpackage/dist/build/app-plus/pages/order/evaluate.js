@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"evaluate.",[1],"data-v-0b34f760{border-top: ",[0,10]," var(--body-bg) solid;}\n.",[1],"input-wrap.",[1],"data-v-0b34f760{padding: ",[0,40]," ",[0,20],";}\n.",[1],"input.",[1],"data-v-0b34f760{display: block; width: 100%;height: ",[0,300],";border: ",[0,1]," var(--border) solid;-webkit-border-radius: ",[0,8],";border-radius: ",[0,8],";padding: ",[0,16]," ",[0,10],";}\n",],undefined,{path:"./pages/order/evaluate.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/order/evaluate.wxml') } }));

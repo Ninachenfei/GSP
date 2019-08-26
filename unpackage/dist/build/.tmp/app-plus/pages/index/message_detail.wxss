@@ -1,0 +1,248 @@
+/**
+ * author: Di (微信小程序开发工程师)
+ * organization: WeAppDev(微信小程序开发论坛)(http://weappdev.com)
+ *         垂直微信小程序开发交流社区
+ *
+ * github地址: https://github.com/icindy/wxParse
+ *
+ * for: 微信小程序富文本解析
+ * detail : http://weappdev.com/t/wxparse-alpha0-1-html-markdown/184
+ */
+.wxParse.data-v-456eccab {
+  width: 100%;
+  font-family: Helvetica, sans-serif;
+  font-size: 30rpx;
+  color: #666;
+  line-height: 1.8;
+}
+.wxParse view.data-v-456eccab {
+  word-break: hyphenate;
+}
+.wxParse .inline.data-v-456eccab {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.wxParse .div.data-v-456eccab {
+  margin: 0;
+  padding: 0;
+}
+.wxParse .h1 .text.data-v-456eccab {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+.wxParse .h2 .text.data-v-456eccab {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+.wxParse .h3 .text.data-v-456eccab {
+  font-size: 1.17em;
+  margin: 1em 0;
+}
+.wxParse .h4 .text.data-v-456eccab {
+  margin: 1.33em 0;
+}
+.wxParse .h5 .text.data-v-456eccab {
+  font-size: 0.83em;
+  margin: 1.67em 0;
+}
+.wxParse .h6 .text.data-v-456eccab {
+  font-size: 0.67em;
+  margin: 2.33em 0;
+}
+.wxParse .h1 .text.data-v-456eccab,
+.wxParse .h2 .text.data-v-456eccab,
+.wxParse .h3 .text.data-v-456eccab,
+.wxParse .h4 .text.data-v-456eccab,
+.wxParse .h5 .text.data-v-456eccab,
+.wxParse .h6 .text.data-v-456eccab,
+.wxParse .b.data-v-456eccab,
+.wxParse .strong.data-v-456eccab {
+  font-weight: bolder;
+}
+.wxParse .p.data-v-456eccab {
+  margin: 1em 0;
+}
+.wxParse .i.data-v-456eccab,
+.wxParse .cite.data-v-456eccab,
+.wxParse .em.data-v-456eccab,
+.wxParse .var.data-v-456eccab,
+.wxParse .address.data-v-456eccab {
+  font-style: italic;
+}
+.wxParse .pre.data-v-456eccab,
+.wxParse .tt.data-v-456eccab,
+.wxParse .code.data-v-456eccab,
+.wxParse .kbd.data-v-456eccab,
+.wxParse .samp.data-v-456eccab {
+  font-family: monospace;
+}
+.wxParse .pre.data-v-456eccab {
+  overflow: auto;
+  background: #f5f5f5;
+  padding: 16rpx;
+  white-space: pre;
+  margin: 1em 0rpx;
+}
+.wxParse .code.data-v-456eccab {
+  display: inline;
+  background: #f5f5f5;
+}
+.wxParse .big.data-v-456eccab {
+  font-size: 1.17em;
+}
+.wxParse .small.data-v-456eccab,
+.wxParse .sub.data-v-456eccab,
+.wxParse .sup.data-v-456eccab {
+  font-size: 0.83em;
+}
+.wxParse .sub.data-v-456eccab {
+  vertical-align: sub;
+}
+.wxParse .sup.data-v-456eccab {
+  vertical-align: super;
+}
+.wxParse .s.data-v-456eccab,
+.wxParse .strike.data-v-456eccab,
+.wxParse .del.data-v-456eccab {
+  text-decoration: line-through;
+}
+.wxParse .strong.data-v-456eccab,
+.wxParse .s.data-v-456eccab {
+  display: inline;
+}
+.wxParse .a.data-v-456eccab {
+  color: deepskyblue;
+}
+.wxParse .video.data-v-456eccab {
+  text-align: center;
+  margin: 22rpx 0;
+}
+.wxParse .video-video.data-v-456eccab {
+  width: 100%;
+}
+.wxParse .img.data-v-456eccab {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  max-width: 100%;
+  overflow: hidden;
+}
+.wxParse .blockquote.data-v-456eccab {
+  margin: 10rpx 0;
+  padding: 22rpx 0 22rpx 22rpx;
+  font-family: Courier, Calibri, "\5B8B\4F53";
+  background: #f5f5f5;
+  border-left: 6rpx solid #dbdbdb;
+}
+.wxParse .blockquote .p.data-v-456eccab {
+  margin: 0;
+}
+.wxParse .ul.data-v-456eccab, .wxParse .ol.data-v-456eccab {
+  display: block;
+  margin: 1em 0;
+  padding-left: 33rpx;
+}
+.wxParse .ol.data-v-456eccab {
+  list-style-type: disc;
+}
+.wxParse .ol.data-v-456eccab {
+  list-style-type: decimal;
+}
+.wxParse .ol>weixin-parse-template.data-v-456eccab,.wxParse .ul>weixin-parse-template.data-v-456eccab {
+  display: list-item;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  text-align: match-parent;
+}
+.wxParse .ol>.li.data-v-456eccab,.wxParse .ul>.li.data-v-456eccab {
+  display: list-item;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  text-align: match-parent;
+}
+.wxParse .ul .ul.data-v-456eccab, .wxParse .ol .ul.data-v-456eccab {
+  list-style-type: circle;
+}
+.wxParse .ol .ol .ul.data-v-456eccab, .wxParse .ol .ul .ul.data-v-456eccab, .wxParse .ul .ol .ul.data-v-456eccab, .wxParse .ul .ul .ul.data-v-456eccab {
+    list-style-type: square;
+}
+.wxParse .u.data-v-456eccab {
+  text-decoration: underline;
+}
+.wxParse .hide.data-v-456eccab {
+  display: none;
+}
+.wxParse .del.data-v-456eccab {
+  display: inline;
+}
+.wxParse .figure.data-v-456eccab {
+  overflow: hidden;
+}
+.wxParse .table.data-v-456eccab {
+  width: 100%;
+}
+.wxParse .thead.data-v-456eccab, .wxParse .tfoot.data-v-456eccab, .wxParse .tr.data-v-456eccab {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+.wxParse .tr.data-v-456eccab {
+  width:100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-right: 2rpx solid #e0e0e0;
+  border-bottom: 2rpx solid #e0e0e0;
+}
+.wxParse .th.data-v-456eccab,
+.wxParse .td.data-v-456eccab {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1276rpx;
+  overflow: auto;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 11rpx;
+  border-left: 2rpx solid #e0e0e0;
+}
+.wxParse .td.data-v-456eccab:last {
+  border-top: 2rpx solid #e0e0e0;
+}
+.wxParse .th.data-v-456eccab {
+  background: #f0f0f0;
+  border-top: 2rpx solid #e0e0e0;
+}
+.msg-content.data-v-456eccab {
+  padding: 30rpx;
+}
+.msg-content-title.data-v-456eccab {
+  display: block;
+  text-align: center;
+  font-size: 32rpx;
+  font-weight: 600;
+  padding: 30rpx 0;
+}
+.msg-dateil-time.data-v-456eccab {
+  display: block;
+  text-align: right;
+  font-size: 28rpx;
+  color: #909090;
+  padding-top: 30rpx;
+}
+

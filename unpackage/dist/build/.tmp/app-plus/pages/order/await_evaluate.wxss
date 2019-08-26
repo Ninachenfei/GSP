@@ -1,0 +1,96 @@
+.order-list.data-v-d253700e {
+  padding: 30rpx;
+}
+.order-list-item.data-v-d253700e {
+  background: #fff;
+  -webkit-border-radius: 6rpx;
+          border-radius: 6rpx;
+  padding: 16rpx 20rpx;
+  margin-bottom: 30rpx;
+  border-bottom: 1rpx var(--border) solid;
+}
+.order-item-top.data-v-d253700e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.order-item-store.data-v-d253700e {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.order-item-store .iconfont.data-v-d253700e {
+  color: #999;
+}
+.order-store-name.data-v-d253700e {
+  color: #323232;
+  font-size: 30rpx;
+  margin-left: 10rpx;
+  margin-right: 6rpx;
+}
+.order-item-status.data-v-d253700e {
+  color: #fe6f07;
+  font-size: 28rpx;
+}
+.order-list-item .order-item.data-v-d253700e {
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.order-express.data-v-d253700e {
+  display: block;
+  color: #999;
+  font-size: 26rpx;
+  padding: 20rpx 0;
+}
+.order-express text.data-v-d253700e {
+  margin-right: 20rpx;
+}
+.order-add.data-v-d253700e {
+  color: #999;
+  text-align: right;
+  display: block;
+  font-size: 26rpx;
+}
+.order-add .price-color.data-v-d253700e {
+  color: #f33c1e;
+}
+.order-btns.data-v-d253700e {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 20rpx;
+  font-size: 26rpx;
+}
+.order-btn.data-v-d253700e {
+  padding: 0 20rpx;
+  color: #999;
+  border: 1rpx currentColor solid;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+  line-height: 48rpx;
+  height: 50rpx;
+  margin-left: 20rpx;
+}
+

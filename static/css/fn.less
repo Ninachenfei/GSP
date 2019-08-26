@@ -1,0 +1,119 @@
+.fyc(@a: 100%) {
+    Width: @a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.transition(@b: 0.3s;) {
+    transition: all @b ease;
+    -webkit-transition: all @b ease;
+    -moz-transition: all @b ease;
+    -ms-transition: all @b ease;
+}
+.gd(@b: 0.3s;) {
+    transition: all @b ease;
+    -webkit-transition: all @b ease;
+    -moz-transition: all @b ease;
+    -ms-transition: all @b ease;
+}
+.dfyc(@line:3){
+    text-decoration: none; 
+    text-overflow: -o-ellipsis-lastline; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    display: -webkit-box; 
+    -webkit-line-clamp: @line; 
+    -webkit-box-orient: vertical;  
+    vertical-align: top;
+}
+.bd_r(@bdr: 5px;) {
+    border-radius: @bdr;
+    -moz-border-radius: @bdr;
+    -webkit-border-radius: @bdr;
+}
+.zhezhao{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    z-index: 12;
+}
+.abs_c{
+     position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+.nobd{
+    &,
+    &:focus,
+    &:hover,
+    &:active {
+        border: none;
+        outline:none;
+    }
+}
+.no_border{
+    border: none!important;
+}
+.bg_center(){
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.pd0{padding: 0!important;}
+.h100{height: 100%;}
+.text-blue{
+    color: #007AFF !important;
+}
+.color_red{
+    color: #17b936!important;
+}
+.color_lvse{
+    color: #0fc431!important;
+}
+.color_huise{
+    color: #c7c7c7!important;
+}
+.f0{
+    font-size: 0;
+}
+.hide{
+    display: none!important;
+}
+.text-center{
+    text-align: center!important;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.f0{
+    font-size: 0;
+}
+.block{
+    display: block;
+}
+.mt10{
+    margin-top: 0.1rem;
+}
+.mt20{
+    margin-top: 0.2rem;
+}
+.bt20{
+    border-top:0.2rem @bg solid ;
+}
+.mt30{
+    margin-top: 0.3rem;
+}
+.mt100{
+    margin-top: 1rem;
+}

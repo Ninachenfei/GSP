@@ -1,0 +1,116 @@
+@import 'config.less';
+@font-face {
+  font-family: 'iconfont';  /* project id 1159509 */
+  src: url('https://at.alicdn.com/t/font_1159509_v6g6y54blhq.eot');
+  src: url('https://at.alicdn.com/t/font_1159509_v6g6y54blhq.eot?#iefix') format('embedded-opentype'),
+  url('https://at.alicdn.com/t/font_1159509_v6g6y54blhq.woff2') format('woff2'),
+  url('https://at.alicdn.com/t/font_1159509_v6g6y54blhq.woff') format('woff'),
+  url('https://at.alicdn.com/t/font_1159509_v6g6y54blhq.ttf') format('truetype'),
+  url('https://at.alicdn.com/t/font_1159509_v6g6y54blhq.svg#iconfont') format('svg');
+}
+.iconfont {
+	font-family: 'iconfont'
+}
+* {
+	box-sizing: border-box;
+}
+uni-page-body {
+	height: 100%;
+}
+.fyc(@a: 100%) {
+	width: @a;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.gd(@b: 0.3s;) {
+	transition: all @b ease;
+	-webkit-transition: all @b ease;
+	-moz-transition: all @b ease;
+	-ms-transition: all @b ease;
+}
+.dfyc(@line:3) {
+	text-decoration: none;
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: @line;
+	-webkit-box-orient: vertical;
+	vertical-align: top;
+}
+.bg-center() {
+	background-repeat: no-repeat;
+	background-position: center center;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.h100 {
+	height: 100%;
+}
+.hide {
+	display: none !important;
+}
+.text-center {
+	text-align: center !important;
+}
+.getfontsize(@n, @i: 24) when (@i =< @n) {
+	.f@{i} {
+		font-size: @i / 1upx;
+	}
+	.getfontsize(@n, (@i + 2));
+}
+.getfontsize(44);
+
+.getMargin(@n, @i: 0) when (@i =< @n) {
+	.mt-@{i} {
+		margin-top: @i / 1upx;
+	}
+	.mb-@{i} {
+		margin-bottom: @i / 1upx;
+	}
+	.ml-@{i} {
+		margin-left: @i / 1upx;
+	}
+	.mr-@{i} {
+		margin-right: @i / 1upx;
+	}
+	.getMargin(@n, (@i + 10));
+}
+.getMargin(160);
+
+view {
+	.btn-block {
+		height: var(--btn-height);
+		line-height: var(--btn-height);
+		background: var(--theme-color);
+		border-radius: var(--border-radius);
+		color: #fff;
+		font-size: var(--btn-font-size);
+		align-content: center;
+		&.radius {
+			border-radius: var(--border-radius-big);
+		}
+		&.disabled {
+			background: var(--disabled);
+			&:after {
+				border-color: var(--disabled);
+			}
+		}
+	}
+	.btn-hover {
+		background: var(--hover-color);
+	}
+	.plr30 {
+		padding-left: 30upx;
+		padding-right: 30upx;
+	}
+}
+.status-navbar-fixed {  //避免状态栏透底
+	position: fixed;
+	top: 0;
+	z-index: 99999;
+	height: var(--status-bar-height);
+	background-color: #fff;
+	width: 100%;
+}

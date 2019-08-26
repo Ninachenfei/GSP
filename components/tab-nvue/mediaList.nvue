@@ -1,0 +1,103 @@
+<template>
+    <div>
+        <div class="item" @click="bindClick">
+			<div class="item-top">
+				<div class="item-top-left">
+					<image src="/static/img/shop/store.png" class="store-icon"></image>
+					<text class="store-name">{{data.storeName}}</text>
+					<image resize="cover" src="/static/img/shop/right.png" class="store-more"></image>
+				</div>
+				<div class="item-top-right"><text class="item-top-right-txt">{{data.orderStatus}}</text></div>
+			</div>
+			<div class="item-center">
+				<div class="store-covers">
+					<image :src="data.img" class="store-cover"></image>
+				</div>
+				<div class="store-txts">
+					<text class="store-txt">{{data.goodsName}}</text>
+				</div>
+				<div class="order-info">
+					<text class="order-price">￥12280.00</text>
+					<text class="order-num">*1</text>
+				</div>
+			</div>
+			<div class="order-item-infos">
+				<text class="order-item-info" v-for="(item, index) in orderInfo" :key="index">{{item}}</text>
+			</div>
+			<div class="express">
+				<text class="express-name">{{data.expressName}}</text>
+				<text class="express-number">{{data.exoressNumber}}</text>
+			</div>
+			<div class="order-add">
+				<text class="order-total">{{data.total}}</text>
+				<text class="order-add-price">￥12280.00</text>
+			</div>
+			<div class="order-btns">
+				<text class="order-btn">确认收货</text>
+			</div>
+        </div>
+    </div>
+</template>
+
+<script>
+    export default {
+        props: {
+            data: {
+                type: Object,
+                default: function(e) {
+                    return {}
+                }
+            }
+        },
+		data (){
+			return {}
+		},
+        computed: {
+			
+		},
+        methods: {
+            close(e) {
+                this.$emit('close');
+                e.stopPropagation();
+            },
+            bindClick() {
+                this.$emit('click');
+            }
+        }
+    }
+</script>
+<style scoped>
+	.item{
+		background-color: #fff;display: flex;flex-wrap: nowrap;width: 750px;padding-top: 20px;padding-bottom: 20px;padding-left: 30px;padding-right: 30px;margin-bottom: 10px;
+	}
+	.item-top{
+		display: flex;justify-content: space-between;height: 50px;margin-bottom: 10px;flex-direction: row;line-height: 50px;
+	}
+	.store-icon{
+		width: 44px;height: 44px;text-align: center;line-height: 60px;font-size: 30px;
+		background-size: 50% auto;background-position: center center;background-repeat: no-repeat;background-image: url(/static/img/shop/store.png);
+	}
+	.store-more{width: 40px;height: 40px;}
+	.store-name{font-size: 28px;color: #323232;}
+	
+	.item-top-left{display: inline-flex;align-items: center;flex-direction: row;}
+	.item-top-right-txt{font-size: 26px;color: #fe6f07;}
+	.item-center{display: flex;flex-direction: row;align-items: top;}
+	.store-covers{width: 120px;height: 120px;flex-direction: row;}
+	.store-cover{width: 120px;height: 120px;}
+	.store-txt{width: 400px;height: 120px;line-height: 40px;lines:3;text-overflow: ellipsis;padding-left: 30px;padding-right: 16px;font-size: 30px;color: #323232;}
+	.order-price{display: flex;color: #fe6f07;font-size: 26px;text-align: right;}
+	.order-num{color: #909090;font-size: 26px;text-align: right;}
+	.order-info{width: 160px;}
+	.store-txts{flex: 1;height: 120px;}
+	.order-item-infos{display: flex;flex-direction: row;padding: 10px 0;margin-bottom: 14px;margin-top: 14px;}
+	.order-item-info{padding: 4px 14px;background-color: #eee;color: #323232;height: 52px;line-height: 44px;font-size: 26px;margin-right: 10px;border-radius: 4px;}
+	.express{display: flex;flex-direction: row;margin-bottom: 10px;}
+	.express-name{font-size: 26px;color: #909090;margin-right: 14px;}
+	.express-number{font-size: 26px;color: #909090;}
+	.order-add{display: flex;justify-content: flex-end;flex-direction: row;}
+	.order-total{font-size: 24px;color: #909090;}
+	.order-add-price{color: #f33c1e;font-size: 24px;}
+	.order-btns{display: flex;justify-content: flex-end;flex-direction: row;margin-top: 14px;}
+	.order-btn{height: 70px;border-radius: 35px;border-width: 1px;border-style: solid;border-color: #909090;padding-left: 30px;color: #666;padding-right: 30px;margin-left: 30px;font-size: 30px;line-height: 70px;}
+</style>

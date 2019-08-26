@@ -1,0 +1,18 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "商品详细",
+  "titleNView": {
+    "backgroundColor": "#FFFFFF",
+    "buttons": [
+      {
+        "width": "40px",
+        "fontSrc": "/static/font/iconfont.ttf",
+        "text": "",
+        "fontSize": "22",
+        "color": "#666666",
+        "background": "rgba(100,100,100,0)",
+        "redDot": false
+      }
+    ]
+  }
+}

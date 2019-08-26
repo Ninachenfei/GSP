@@ -1,0 +1,2 @@
+<import src="./wallet.vue.wxml" />
+    <template is="c060666e" data="{{ ...$root['0'], $root }}"/>

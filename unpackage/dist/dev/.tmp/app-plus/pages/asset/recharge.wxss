@@ -1,0 +1,81 @@
+.data-v-17bdfcea:root,
+page.data-v-17bdfcea {
+  --theme-color: #fe6f07;
+  --hover-color: #d25a03;
+  --link-color: #5075e8;
+  --border: #f2f2f2;
+  --btn-height: 80rpx;
+  --border-radius-big: 40rpx;
+  --border-radius: 8rpx;
+  --btn-font-size: 32rpx;
+  --disabled: #ddd;
+  --txt-color: #323232;
+  --txt-gray-color: #909090;
+  --body-bg: #f5f5f8;
+}
+page.data-v-17bdfcea {
+  height: 100%;
+}
+.box.data-v-17bdfcea {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #f7f7f7;
+}
+.recharge.data-v-17bdfcea {
+  background: #fff;
+  margin: 45rpx 30rpx;
+  padding: 30rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.recharge .cz_ma.data-v-17bdfcea {
+  margin-top: 40rpx;
+}
+.recharge .cz_ma .img.data-v-17bdfcea {
+  width: 300rpx;
+  height: 300rpx;
+  display: block;
+  margin: 0rpx auto;
+}
+.recharge .cz_ma .save_ma.data-v-17bdfcea {
+  font-size: 24rpx;
+  color: #4f6be4;
+  line-height: 80rpx;
+  text-align: center;
+  border-bottom: 1px dashed #c8c8c9;
+  display: block;
+  padding-bottom: 10rpx;
+}
+.recharge .my_yqm.data-v-17bdfcea {
+  text-align: center;
+}
+.recharge .my_yqm .yqm.data-v-17bdfcea {
+  display: block;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 25rpx;
+  color: #8f8e8e;
+}
+.recharge .my_yqm .copy.data-v-17bdfcea {
+  display: inline-block;
+  width: 260rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 28rpx;
+  color: #333;
+  background: #e2e2e2;
+  -webkit-border-radius: 30rpx;
+          border-radius: 30rpx;
+}
+.recharge .my_yqm .copy .iconfont.data-v-17bdfcea {
+  margin-right: 10rpx;
+}
+.recharge .tips_ct.data-v-17bdfcea {
+  display: inline-block;
+  font-size: 26rpx;
+  color: var(--txt-gray-color);
+  line-height: 1.8;
+  margin: 80rpx 0;
+}
+

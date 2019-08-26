@@ -1,0 +1,34 @@
+.laod_ts.data-v-6c3ec230 {
+  font-size: 25rpx;
+  color: #666;
+  text-align: center;
+  line-height: 2;
+}
+.dope.data-v-6c3ec230 {
+  padding: 28rpx;
+}
+.dope .list.data-v-6c3ec230 {
+  -webkit-box-shadow: 0 0 20rpx #b8b3b3;
+          box-shadow: 0 0 20rpx #b8b3b3;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  padding: 10rpx;
+  margin-bottom: 40rpx;
+}
+.dope .list .ct.data-v-6c3ec230 {
+  padding: 0 10rpx;
+}
+.dope .list .ct .title.data-v-6c3ec230 {
+  font-size: 30rpx;
+  color: #333;
+  line-height: 1.8;
+}
+.dope .list .ct .time.data-v-6c3ec230 {
+  font-size: 24rpx;
+  color: #999;
+}
+.content.data-v-6c3ec230 {
+  color: #606060;
+  font-size: 26rpx;
+}
+

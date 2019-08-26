@@ -1,0 +1,57 @@
+.add_pay.data-v-5181ca18 {
+  border-top: 12rpx solid #f7f7f7;
+  padding: 28rpx;
+}
+.add_pay .title.data-v-5181ca18 {
+  display: block;
+  font-size: 30rpx;
+  color: #999;
+  line-height: 2;
+  margin-top: 20rpx;
+}
+.add_pay .input.data-v-5181ca18 {
+  font-size: 28rpx;
+  color: #333;
+  height: 86rpx;
+  line-height: 86rpx;
+  padding: 0 20rpx;
+  background: #f2f2f2;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.add_pay .text_wz.data-v-5181ca18 {
+  width: auto;
+  font-size: 28rpx;
+  color: #333;
+  height: 200rpx;
+  line-height: 60rpx;
+  padding: 0 20rpx;
+  background: #f2f2f2;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+}
+.add_pay .position.data-v-5181ca18 {
+  position: relative;
+}
+.add_pay .position .text_yzm.data-v-5181ca18 {
+  display: block;
+  line-height: 86rpx;
+  font-size: 30rpx;
+  color: #333;
+  position: absolute;
+  right: 20rpx;
+  bottom: 0;
+  z-index: 999;
+}
+.login_btn.data-v-5181ca18 {
+  margin: 80rpx 28rpx 0 28rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: #5075e8;
+  color: #fff;
+  font-size: 30rpx;
+  -webkit-align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+}
+

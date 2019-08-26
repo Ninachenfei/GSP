@@ -1,0 +1,5 @@
+
+.evaluate.data-v-23ecce3e{border-top: 10rpx var(--body-bg) solid;}
+.input-wrap.data-v-23ecce3e{padding: 40rpx 20rpx;}
+.input.data-v-23ecce3e{display: block; width: 100%;height: 300rpx;border: 1rpx var(--border) solid;-webkit-border-radius: 8rpx;border-radius: 8rpx;padding: 16rpx 10rpx;}
+

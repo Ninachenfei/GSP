@@ -1,0 +1,18 @@
+
+.pay-item.data-v-e47904e8{display: block;padding: 30rpx;border-bottom: 1px var(--border) solid;font-size: 30rpx;line-height: 40rpx;}
+.pay-item-pwd.data-v-e47904e8{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;border-bottom: 1px #f2f2f2 solid;padding: 20rpx 30rpx;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center;
+}
+.pay-item-label.data-v-e47904e8{
+	font-size: 30rpx;
+}
+.pay-item-val.data-v-e47904e8{
+	-webkit-box-flex: 1;
+	-webkit-flex: 1;
+	    -ms-flex: 1;
+	        flex: 1;line-height: 50rpx;height: 70rpx;margin-left: 20rpx;
+}
+

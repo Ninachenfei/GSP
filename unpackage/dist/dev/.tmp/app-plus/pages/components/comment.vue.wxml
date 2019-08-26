@@ -1,0 +1,1 @@
+<template name="77114877"><view class="_view M77114877 comment-item"><view class="_view M77114877 comment-head"><image class="_image M77114877 comment-head-img" src="{{data.avatar}}" mode="aspectFit"></image><text class="_text M77114877 comment-head-name">{{data.username}}</text></view><view class="_view M77114877 comment-content">{{data.content}}</view></view></template>

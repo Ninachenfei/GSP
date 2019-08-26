@@ -1,0 +1,15 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "兑换",
+  "titleNView": {
+    "backgroundColor": "#E0E0E0",
+    "buttons": [
+      {
+        "width": "62px",
+        "text": "我的钱包",
+        "fontSize": "13px",
+        "color": "#666666"
+      }
+    ]
+  }
+}

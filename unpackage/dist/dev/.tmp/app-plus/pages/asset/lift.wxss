@@ -1,0 +1,86 @@
+.data-v-5900ae64:root,
+page.data-v-5900ae64 {
+  --theme-color: #fe6f07;
+  --hover-color: #d25a03;
+  --link-color: #5075e8;
+  --border: #f2f2f2;
+  --btn-height: 80rpx;
+  --border-radius-big: 40rpx;
+  --border-radius: 8rpx;
+  --btn-font-size: 32rpx;
+  --disabled: #ddd;
+  --txt-color: #323232;
+  --txt-gray-color: #909090;
+  --body-bg: #f5f5f8;
+}
+.box.data-v-5900ae64 {
+  padding: 0 30rpx;
+  border-top: 10rpx solid #f7f7f7;
+}
+.form_swap.data-v-5900ae64 {
+  font-size: 28rpx;
+}
+.form_swap .title.data-v-5900ae64 {
+  color: var(--txt-color);
+  line-height: 1.5;
+  margin-top: 30rpx;
+}
+.form_swap .tips.data-v-5900ae64 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 10rpx;
+}
+.form_swap .list.data-v-5900ae64 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 66rpx;
+  border-bottom: 1rpx solid #ececec;
+}
+.form_swap .list .input.data-v-5900ae64 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+.form_swap .all.data-v-5900ae64 {
+  color: var(--txt-color);
+}
+.form_swap .red.data-v-5900ae64 {
+  font-size: 24rpx;
+  color: #ff4958;
+}
+.form_swap .fee.data-v-5900ae64 {
+  font-size: 24rpx;
+  color: #4f6be4;
+}
+.form_swap .yzm.data-v-5900ae64 {
+  font-size: 28rpx;
+  color: #4f6be4;
+}
+.form_swap .explain.data-v-5900ae64 {
+  font-size: 24rpx;
+  color: var(--txt-gray-color);
+  line-height: 1.8;
+  padding: 30rpx 0 100rpx 0;
+}
+

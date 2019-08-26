@@ -1,0 +1,112 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/share",
+    "pages/user/about",
+    "pages/user/security",
+    "pages/user/modify_jy",
+    "pages/user/modify_dl",
+    "pages/user/index",
+    "pages/index/detail",
+    "pages/index/list",
+    "pages/index/confirm_order",
+    "pages/index/classify",
+    "pages/order/shopcar",
+    "pages/order/index",
+    "pages/order/detail",
+    "pages/user/index",
+    "pages/user/collection",
+    "pages/order/all_evaluate",
+    "pages/order/await_evaluate",
+    "pages/order/evaluate",
+    "pages/user/personal",
+    "pages/user/setting",
+    "pages/asset/index",
+    "pages/asset/asset",
+    "pages/asset/asset_detail",
+    "pages/asset/recharge",
+    "pages/asset/lift",
+    "pages/asset/swap",
+    "pages/asset/swap_detail",
+    "pages/asset/store",
+    "pages/asset/business",
+    "pages/asset/team",
+    "pages/asset/transfer",
+    "pages/asset/transaction",
+    "pages/asset/wallet",
+    "pages/user/address",
+    "pages/user/add_address",
+    "pages/store/index",
+    "pages/store/store",
+    "pages/store/release",
+    "pages/store/ordere",
+    "pages/store/detail",
+    "pages/store/homepage",
+    "pages/user/real",
+    "pages/order/express",
+    "pages/login/index",
+    "pages/login/forget",
+    "pages/login/register",
+    "pages/index/search",
+    "pages/user/apply",
+    "pages/index/message",
+    "pages/index/message_detail",
+    "pages/order/pay",
+    "pages/user/kefu",
+    "pages/user/dope",
+    "pages/asset/jifen_detail"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "GSP",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#ffffff",
+    "scrollIndicator": "none"
+  },
+  "usingComponents": {},
+  "tabBar": {
+    "color": "#80818a",
+    "selectedColor": "#fe6f07",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/img/shop/footer/home-0.png",
+        "selectedIconPath": "static/img/shop/footer/home-1.png"
+      },
+      {
+        "pagePath": "pages/index/classify",
+        "text": "分类",
+        "iconPath": "static/img/shop/footer/class-0.png",
+        "selectedIconPath": "static/img/shop/footer/class-1.png"
+      },
+      {
+        "pagePath": "pages/asset/swap",
+        "text": "兑换",
+        "iconPath": "static/img/shop/footer/icon_wealth00.png",
+        "selectedIconPath": "static/img/shop/footer/icon_wealth01.png"
+      },
+      {
+        "pagePath": "pages/order/shopcar",
+        "text": "购物车",
+        "iconPath": "static/img/shop/footer/shop-0.png",
+        "selectedIconPath": "static/img/shop/footer/shop-1.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "个人中心",
+        "iconPath": "static/img/shop/footer/user-0.png",
+        "selectedIconPath": "static/img/shop/footer/user-1.png"
+      }
+    ]
+  },
+  "nvueCompiler": "weex",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "优品商城",
+  "compilerVersion": "2.0.1"
+}

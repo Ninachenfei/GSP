@@ -1,0 +1,15 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "添加收货地址",
+  "bounce": "none",
+  "titleNView": {
+    "buttons": [
+      {
+        "text": "保存",
+        "width": "36px",
+        "fontSize": "13px",
+        "color": "#333333"
+      }
+    ]
+  }
+}

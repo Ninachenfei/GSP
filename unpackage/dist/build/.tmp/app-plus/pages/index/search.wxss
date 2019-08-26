@@ -1,0 +1,11 @@
+
+view.data-v-7c2c93cc{line-height: 2em;}
+/* h5 端需要动态增加 44px [ 避开默认的头部导航 ] */
+.top.data-v-7c2c93cc{top:0;}
+
+.grace-search.data-v-7c2c93cc{height: auto;border-bottom: 1px #ccc solid;}
+.grace-search-in .icons.data-v-7c2c93cc{font-size: 40rpx;}
+.grace-search-in .f30.data-v-7c2c93cc{font-size: 30rpx;}
+.grace-search.data-v-7c2c93cc{padding-left: 0;padding-right: 0;width: 100%;}
+.search-kong.data-v-7c2c93cc{text-align: center;font-size: 26rpx;color: #909090;line-height: 50rpx;padding-top: 60rpx;}
+

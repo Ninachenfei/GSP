@@ -1,0 +1,58 @@
+.msg-list.data-v-017abf19 {
+  padding: 30rpx;
+  min-height: 100%;
+}
+.msg-item.data-v-017abf19 {
+  margin-bottom: 40rpx;
+}
+.msg-item-time-wrap.data-v-017abf19 {
+  text-align: center;
+  display: block;
+  margin: 20rpx auto;
+}
+.msg-item-time.data-v-017abf19 {
+  font-size: 24rpx;
+  background: #ccc;
+  color: #fff;
+  padding: 5rpx 16rpx;
+}
+.msg-content.data-v-017abf19 {
+  background: #fff;
+  padding: 30rpx 20rpx;
+}
+.msg-item-title.data-v-017abf19 {
+  display: block;
+  font-size: 30rpx;
+  font-weight: 600;
+  width: 100%;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+  line-height: 50rpx;
+  margin-bottom: 10rpx;
+}
+.msg-item-txt.data-v-017abf19 {
+  font-size: 24rpx;
+  color: #909090;
+  width: 100%;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+     text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 20rpx;
+  line-height: 50rpx;
+  display: block;
+}
+.msg-item-look.data-v-017abf19 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #323232;
+}
+
